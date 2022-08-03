@@ -45,12 +45,12 @@
 
 .button-navbar{
     width: 5%;
+    font-size: 24px;
 }
 
-.button-navbar button{
-    border: none;
-    background: none;
+.button-navbar a{
     color: gray;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px;
+    text-decoration: none;
 }
