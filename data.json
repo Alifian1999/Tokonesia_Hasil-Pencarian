@@ -1,0 +1,87 @@
+{
+    "type":{  
+        "akun_keamanan":[
+            {
+                "text"  : "Bagaimana Cara Membuat Akun di tokonesia?",
+                "image" : "./assets/panah.png",
+                "class" : "akun-keamanan-1"
+            },
+            {
+                "text"  : "Bagaimana Cara Mengubah Email dan Kata Sandi?",
+                "image" : "./assets/panah.png",
+                "class" : "akun-keamanan-2"
+            },
+            {
+                "text"  : "Siapa yang Dapat Saya Hubungi Jika Saya Memiliki Kendala",
+                "image" : "./assets/panah.png",
+                "class"    : "akun-keamanan-3"
+            }
+        ],
+        "pembelian_pembayaran":[
+            {
+                "text"  : "Bagaimana Cara Saya Membatalkan Pesanan?",
+                "image" : "./assets/panah.png",
+                "class" : "pembelian-pembayaran-1"
+            },
+            {
+                "text"  : "Apa Saja Metode Pembayaran yang Ada di Tokonesia?",
+                "image" : "./assets/panah.png",
+                "class" : "pembelian-pembayaran-2"
+            }
+        ],
+        "pengiriman" : [
+            {
+                "text"  : "Kurir Apa Saja yang Tersedia di Tokonesia?",
+                "image" : "./assets/panah.png",
+                "class" : "pengiriman-1"
+            },
+            {
+                "text"  : "Bagaimana Cara Mengubah Alamat Pengiriman?",
+                "image" : "./assets/panah.png",
+                "class" : "pengiriman-2"
+            }
+        ],
+        "pengembalian" : [
+            {
+                "text"  : "Bagaimana Cara Mengajukan Pengembalian Dana dan Produk?",
+                "image" : "./assets/panah.png",
+                "class" : "pengembalian-1"
+            }
+        ],
+        "penjualan" : [
+            {
+                "text"  : "Bagaimana Cara Menjadi Vendor di Tokonesia?",
+                "image" : "./assets/panah.png",
+                "class" : "penjualan"
+            }
+        ]
+    },
+    "list_kategori" : 
+    [   
+        {
+            "kategori"  : "Akun & Keamanan",
+            "image"     : "./assets/logo-akun-dan-keamanan.png",
+            "id"        : "akun_keamanan"
+        },
+        {
+            "kategori"  : "Pembelian & Pembayaran",
+            "image"     : "./assets/logo-pembelian-pembayaran.png",
+            "id"        : "pembelian_pembayaran"
+        },
+        {
+            "kategori"  : "Pengiriman Barang",
+            "image"     : "./assets/logo-pengiriman-barang.png",
+            "id"        : "pengiriman"
+        },
+        {
+            "kategori"  : "Pengembalian Barang & Dana",
+            "image"     : "./assets/logo refund.png",
+            "id"        : "pengembalian"
+        },
+        {
+            "kategori"  : "Penjualan & Pengiriman Dana",
+            "image"     : "./assets/logo-penjualan-dan-pengiriman-dana.png",
+            "id"        : "penjualan"
+        }
+    ]
+}

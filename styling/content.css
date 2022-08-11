@@ -1,17 +1,16 @@
 /* content-container */
 .container-content-hasil-pencarian{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
     display: flex;
 }
-
 
 /* Content Left */
 .container-kategori-main{
     padding: 30px;
     padding-top: 100px;
     padding-left: 140px;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 
 .container-content-hasil-pencarian-left{
@@ -44,7 +43,7 @@
 .container-kategori-top h3{
     margin-bottom: 20px;
 }
-.container-kategori-top a{
+.container-kategori-top button{
     display: flex;
     background-color: white;
     border-radius: 30px;
@@ -54,11 +53,13 @@
     margin-top: 15px;
     padding-left: 8%;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
-.container-kategori-top a img{
+.container-kategori-top button img{
     width: 8%;
 }
-.container-kategori-top a p{
+.container-kategori-top button p{
     width: 82%;
     margin-left: 20px;
     display: flex;
@@ -142,13 +143,14 @@ hr{
 
 .container-content-result{
     width: 100%;
+    height: 100%;
 }
 
-.container-content-result a{
+.container-content-result #hasilPencarian{
     margin-left: 15px;
     width: 100%;
-
     display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 0 0 40px 40px;
     padding: 12px 8%;
@@ -158,13 +160,35 @@ hr{
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    
 }
-.container-content-result a img{
-    width: 4%;
+.container-content-result #hasilPencarian .title-accordion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: baseline;
+}
+
+.container-content-result #hasilPencarian .title-accordion img{
+    width: 20px;
     object-fit: contain;
+    cursor: pointer;
 }
-.container-content-result a p{
+.container-content-result #hasilPencarian .title-accordion p{
     font-weight: 700;
     font-size: 17px;
     color: black;
 }
+
+/* .accordion{
+    border-top: 1px solid black;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    color: red;
+    display: none;
+} */
+
